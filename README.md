@@ -3,7 +3,7 @@ Markdown &amp; Plain Text extractions of the content of the 1828 edition of the 
 
 ## Background
 In October 1829, Oliver Cowdery purchased a copy of this version of the Bible which was later used by Joseph Smith in the preparation of his new translation of the Holy Scriptures.
-* Joseph Smith Papers: [Joseph Smith's Copy of the used for Bible Revision](https://www.josephsmithpapers.org/paper-summary/bible-used-for-bible-revision/5#historical-intro)
+* Joseph Smith Papers: [Joseph Smith's copy used for bible revision](https://www.josephsmithpapers.org/paper-summary/bible-used-for-bible-revision/5#historical-intro)
 * BYU Studies: [Joseph Smith’s Cooperstown Bible: The Historical Context of the Bible Used in the Joseph Smith Translation](https://byustudies.byu.edu/article/joseph-smiths-cooperstown-bible-the-historical-context-of-the-bible-used-in-the-joseph-smith-translation)
 
 ## Source
