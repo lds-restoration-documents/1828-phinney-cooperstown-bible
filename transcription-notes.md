@@ -5079,7 +5079,7 @@ barcode label: BRIGHAM YOUNG UNIVERSITY — 3 1197 22194 9792
 
 ## 7. Compiled text (`phinney-bible.md`)
 
-`phinney-bible.md` (project root) is generated from the 884 page files by a script and contains only the main text, in page order:
+`phinney-bible.md` (project root) is generated from the 884 page files by a script (`tools/compile_markdown.py`; see `tools/README.md`) and contains only the main text, in page order:
 
 - **Removed:** the `### Marginal notes` sections, `Footer:` lines (signature marks and printed folios), the `**Header:**` running heads, all HTML comments (including the `uncertain` comments), the superscript reference marks (`a`, `b`, `†`, `‖`, `§` …, which only point to the margin notes), and the layout-only subheadings that named a column.
 - **Kept:** book titles, chapter headings and summaries, verses with their italics and ¶ marks, tables and indexes, and `[illegible]` marks (28 in the main text). A `<!-- page NNN -->` comment (invisible when rendered) marks the start of each page's text so any passage can be traced back to its page file.
