@@ -1,6 +1,6 @@
 <!-- PDF page 852 -->
 <!-- Layout: three tiers separated by rules; verses split across the columns (2 John 10, Jude 7) are rejoined. -->
-**Header:** *Gaius commended for piety, &c.* | JUDE. | *Of false teachers, and their punishment.* <!-- uncertain: scan looks like "ana their punishment" -->
+**Header:** *Gaius commended for piety, &c.* | JUDE. | *Of false teachers, ana their punishment.* <!-- uncertain: printed "ana" for "and" (confirmed at zoom) -->
 
 who confess not that Jesus Christ is come in the flesh. This is a deceiver and an antichrist.
 

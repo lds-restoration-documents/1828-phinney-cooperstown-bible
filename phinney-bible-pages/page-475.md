@@ -43,7 +43,7 @@ THE sin of Judah *is* written with a <sup>a</sup>pen of iron, *and* with the poi
 
 4 And thou, even thyself, shalt <sup>g</sup>discontinue from thy heritage that I gave thee; and I will cause thee to serve thine enemies in the land which thou knowest not: for ye have kindled <sup>h</sup>a fire in mine anger, *which* shall burn for ever.
 
-5 Thus saith the LORD, Cursed *be* the man that <!-- uncertain: scan reads "them an that" -->  <sup>i</sup>trusteth in man, and maketh flesh his arm, and whose heart departeth from the LORD:
+5 Thus saith the LORD, Cursed *be* them an that <!-- uncertain: printed "them an" for "the man" (spacing; confirmed at zoom) -->  <sup>i</sup>trusteth in man, and maketh flesh his arm, and whose heart departeth from the LORD:
 
 6 For he shall be like the heath in the desert, and shall <sup>k</sup>not see when good cometh; but shall inhabit the <sup>l</sup>parched places in the wilderness, *in* a salt land and not inhabited.
 

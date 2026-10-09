@@ -1,5 +1,5 @@
 <!-- PDF page 769 -->
-**Header:** *Christ's ascension.* | CHAPTER II. | *The apostles inspired.* <!-- uncertain: last letter of "inspired" smudged, prints like "inspirea" -->
+**Header:** *Christ's ascension.* | CHAPTER II. | *The apostles inspirea.* <!-- uncertain: printed "inspirea" for "inspired" (confirmed at zoom) -->
 
 manded them that they should not depart from Jerusalem, but wait for the promise of the Father, which, *saith he,* ye have heard of me:
 

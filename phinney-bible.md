@@ -7331,7 +7331,7 @@ AND Bezaleel made the ark *of* shittim-wood: two cubits and a half *was* the len
 
 24 *Of* a talent of pure gold made he it, and all the vessels thereof.
 
-25 And he made the incense altar *of* shittimwood: the length of it *was* a cubit, and the breadth of it a cubit, (*it was* foursquare,) and two cubits *was* the height of it; the horns thereof were of the same. <!-- page 078 -->
+25 And he made the incense altar *of* shittim-wood: the length of it *was* a cubit, and the breadth of it a cubit, (*it was* foursquare,) and two cubits *was* the height of it; the horns thereof were of the same. <!-- page 078 -->
 
 26 And he overlaid it with pure gold, *both* the top of it, and the sides thereof round about, and the horns of it: also he made unto it a crown of gold round about.
 
@@ -11525,7 +11525,7 @@ AND the LORD spake unto Moses, saying,
 
 7 And the drink-offering thereof *shall be* the fourth *part* of a hin for the one lamb; in the holy *place* shalt thou cause the strong wine to be poured unto the LORD *for* a drink-offering.
 
-8 And the other lamb shalt thou offer at even: as the meat-offering of the morning, and as the drinkoffering thereof, thou shalt offer *it*, a sacrifice made by fire, of a sweet savour unto the LORD. <!-- page 126 -->
+8 And the other lamb shalt thou offer at even: as the meat-offering of the morning, and as the drink-offering thereof, thou shalt offer *it*, a sacrifice made by fire, of a sweet savour unto the LORD. <!-- page 126 -->
 
 9 And on the sabbath-day two lambs of the first year without spot, and two tenth-deals of flour *for* a meat-offering, mingled with oil, and the drink-offering thereof.
 
@@ -27173,7 +27173,7 @@ HEZEKIAH began to reign *when he was* five and twenty years old; and he reigned 
 
 22 So they killed the bullocks, and the priests received the blood, and sprinkled *it* on the altar: likewise, when they had killed the rams, they sprinkled the blood upon the altar: they killed also the lambs, and they sprinkled the blood upon the altar.
 
-23 And they brought forth the he-goats *for* the sinoffering before the king and the congregation; and laid their hands upon them: <!-- page 316 -->
+23 And they brought forth the he-goats *for* the sin-offering before the king and the congregation; and laid their hands upon them: <!-- page 316 -->
 
 24 And the priests killed them, and they made reconciliation with their blood upon the altar, to make an atonement for all Israel; for the king commanded, *that* the burnt-offering and the sin-offering *should be made* for all Israel.
 
@@ -28325,7 +28325,7 @@ THEN Eliashib the high priest rose up, with his brethren the priests, and they b
 
 9 And next unto them repaired Rephaiah the son of Hur, the ruler of the half part of Jerusalem.
 
-10 And next unto them repaired Jedaiah the son of Harumaph, even over against his house. And next unto him repaired Hattush the son of Hashabuiah.
+10 And next unto them repaired Jedaiah the son of Harumaph, even over against his house. And next unto him repaired Hattush the son of Hashabniah.
 
 11 Malchijah the son of Harim, and Hashub the son of Pahath-moab, repaired the other piece, and the tower of the furnaces.
 
@@ -30555,7 +30555,7 @@ THEN answered Zophar the Naamathite, and said,
 
 ## CHAPTER XXI.
 
-The judgment of the wicked is in another world.
+The judgment of the wicked is in anotner world.
 
 BUT Job answered and said,
 
@@ -41013,7 +41013,7 @@ THE burden of Babylon, which Isaiah the son of Amoz did see.
 
 3 I have commanded my sanctified ones, I have also called my mighty ones for mine anger, *even* them that rejoice in my highness.
 
-4 The noise of a multitude in the mountains, like as of a great people; a tumultuous noise of the kingdoms <!-- page 437 --> doms of nations gathered together: the LORD of hosts mustereth the host of the battle.
+4 The noise of a multitude in the mountains, like as of a great people; a tumultuous noise of the kingdoms of nations gathered together: the LORD of hosts mustereth the host of the battle. <!-- page 437 -->
 
 5 They come from a far country, from the end of heaven, *even* the LORD, and the weapons of his indignation, to destroy the whole land.
 
@@ -44233,7 +44233,7 @@ THE sin of Judah *is* written with a pen of iron, *and* with the point of a diam
 
 4 And thou, even thyself, shalt discontinue from thy heritage that I gave thee; and I will cause thee to serve thine enemies in the land which thou knowest not: for ye have kindled a fire in mine anger, *which* shall burn for ever.
 
-5 Thus saith the LORD, Cursed *be* the man that trusteth in man, and maketh flesh his arm, and whose heart departeth from the LORD:
+5 Thus saith the LORD, Cursed *be* them an that trusteth in man, and maketh flesh his arm, and whose heart departeth from the LORD:
 
 6 For he shall be like the heath in the desert, and shall not see when good cometh; but shall inhabit the parched places in the wilderness, *in* a salt land and not inhabited.
 
@@ -56784,7 +56784,7 @@ IN the twelfth year of the reign of Nabuchodonosor, who reigned in Nineve, the g
 
 5 Even in those days king Nabuchodonosor made war with king Arphaxad in the great plain, which is the plain in the borders of Ragau.
 
-6 And there came unto him all they that dwell in the hillcountry, and all they that dwelt by Euphrates, and Tigris, and Hydaspes, and the plain of Arioch the king of the Elymeans, and very many nations of the sons of Chelod, assembled themselves to the battle. <!-- page 614 -->
+6 And there came unto him all they that dwell in the hill-country, and all they that dwelt by Euphrates, and Tigris, and Hydaspes, and the plain of Arioch the king of the Elymeans, and very many nations of the sons of Chelod, assembled themselves to the battle. <!-- page 614 -->
 
 7 Then Nabuchodonosor king of the Assyrians sent unto all that dwelt in Persia, and to all that dwelt westward, and to those that dwelt in Cilicia, and Damascus, and Libanus, and Antilibanus, and to all that dwelt upon the sea coast,
 
@@ -72264,7 +72264,7 @@ WHEN therefore the Lord knew how the Pharisees had heard that Jesus made and bap
 
 45 Then, when he was come into Galilee, the Galileans received him, having seen all the things that he did at Jerusalem at the feast: for they also went unto the feast.
 
-46 So Jesus came again into Cana of Galilee, where he made the water wine. And there was a certainnobleman, whose son was sick at Capernaum.
+46 So Jesus came again into Cana of Galilee, where he made the water wine. And there was a certain nobleman, whose son was sick at Capernaum.
 
 <!-- page 754 -->
 
@@ -73212,7 +73212,7 @@ NOW before the feast of the passover, when Jesus knew that his hour was come tha
 
 25 He then, lying on Jesus' breast, saith unto him, Lord, who is it?
 
-26 Jesusanswered, He it is to whom I shall give a sop when I have dipped *it.* And when he had dipped the sop, he gave *it* to Judas Iscariot, *the son* of Simon.
+26 Jesus answered, He it is to whom I shall give a sop when I have dipped *it.* And when he had dipped the sop, he gave *it* to Judas Iscariot, *the son* of Simon.
 
 27 And after the sop, Satan entered into him. Then said Jesus unto him, That thou doest, do quickly.
 

@@ -39,7 +39,7 @@ THEN <sup>a</sup>Eliashib the high priest rose up, with <sup>b</sup>his brethren
 
 9 And next unto them repaired Rephaiah the son of Hur, the ruler of the half part of Jerusalem.
 
-10 And next unto them <sup>q</sup>repaired Jedaiah the son of Harumaph, even over against his house. And next unto him repaired <sup>r</sup>Hattush <!-- uncertain: printed as Hat?ush, a blemish over the second t --> the son of Hashabuiah.
+10 And next unto them <sup>q</sup>repaired Jedaiah the son of Harumaph, even over against his house. And next unto him repaired <sup>r</sup>Hattush <!-- uncertain: printed as Hat?ush, a blemish over the second t --> the son of Hashabniah.
 
 11 <sup>s</sup>Malchijah the son of Harim, and Hashub the son of Pahath-moab, repaired the other piece, and the tower of the furnaces.
 

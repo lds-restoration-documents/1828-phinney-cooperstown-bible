@@ -26,6 +26,7 @@ def clean_page(t):
     t = re.sub(r'(?m)^\*\*Header:\*\*.*\n?', '', t)
     t = re.sub(r'(?m)^(- )?Footer:.*\n?', '', t)
     t = re.sub(r'(?mi)^### .*\b(left|right) column\b.*$\n?', '', t)
+    t = re.sub(r'(?<=\w)<sup>.*?</sup>(?=\w)', ' ', t)  # a mark with a letter on both sides: do not fuse the words
     t = re.sub(r'<sup>.*?</sup>', '', t)
     t = t.replace('\\*', '*')
     t = re.sub(r'(?<=\S)[ \t]{2,}(?=\S)', ' ', t)
@@ -34,12 +35,39 @@ def clean_page(t):
     return t
 
 
+def close_up(prev, first, hyphenated):
+    """Join text ending in a hyphen to the text that follows it.
+
+    A hyphen at a page or column break is normally a syllable break (Abra-/ham)
+    and is dropped. If the two halves form a compound that the edition prints
+    hyphenated elsewhere and never closed up (shittim-/wood), the hyphen is kept.
+    """
+    a = re.search(r'([A-Za-z]+)-$', prev)
+    b = re.match(r'[A-Za-z]+', first)
+    if a and b and (a.group(1).lower() + '-' + b.group(0).lower()) in hyphenated:
+        return prev + first
+    return prev[:-1] + first
+
+
+def hyphenated_compounds(pages):
+    """Lower-case 'a-b' compounds that occur hyphenated mid-line and never closed up."""
+    text = '\n'.join(pages).lower()
+    out = set()
+    for m in set(re.findall(r'(?<![a-z])([a-z]+-[a-z]+)(?![a-z-])', text)):
+        a, b = m.split('-')
+        if not re.search(r'(?<![a-z])' + a + b + r'(?![a-z])', text):
+            out.add(m)
+    return out
+
+
 def compile_pages(files):
     out = []
     joined = 0
+    cleaned = [clean_page(open(f, encoding='utf-8').read()) for f in files]
+    hyphenated = hyphenated_compounds(cleaned)
     for f in files:
         n = int(f[-6:-3])
-        t = clean_page(open(f, encoding='utf-8').read())
+        t = cleaned[files.index(f)]
         if not t.strip():
             continue
         paras = t.split('\n\n')
@@ -57,7 +85,7 @@ def compile_pages(files):
                     or prev[-1] not in '.?!:;"\'')
             if cont:
                 if prev.endswith('-') and first[:1].islower() and not prev.endswith(' -'):
-                    out[-1] = prev[:-1] + first + f' <!-- page {n:03d} -->'
+                    out[-1] = close_up(prev, first, hyphenated) + f' <!-- page {n:03d} -->'
                 else:
                     out[-1] = prev + ' ' + f'<!-- page {n:03d} -->' + ' ' + first
                 joined += 1
@@ -75,7 +103,7 @@ def compile_pages(files):
             q = re.sub(r'<!--.*?-->', '', fixed[-1]).rstrip().rstrip('*').rstrip()
             if q and q[-1] not in '.?!:"\')”’':
                 if q.endswith('-') and not q.endswith(' -'):
-                    fixed[-1] = fixed[-1].rstrip()[:-1] + p
+                    fixed[-1] = close_up(fixed[-1].rstrip(), p, hyphenated)
                 else:
                     fixed[-1] = fixed[-1].rstrip() + ' ' + p
                 joined += 1

@@ -93,7 +93,7 @@ THE <sup>a</sup>burden of Babylon, which Isaiah the son of Amoz did see.
 
 3 I have commanded my <sup>d</sup>sanctified ones, I have also called my <sup>e</sup>mighty ones for mine <sup>f</sup>anger, *even* them that rejoice in <sup>g</sup>my highness.
 
-4 The noise of a multitude in the mountains, like as of a great people; a tumultuous noise of the <sup>h</sup>kingdoms
+4 The noise of a multitude in the mountains, like as of a great people; a tumultuous noise of the <sup>h</sup>king-
 
 ---
 

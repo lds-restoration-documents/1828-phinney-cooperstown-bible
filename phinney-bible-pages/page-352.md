@@ -119,7 +119,7 @@ THEN answered <sup>a</sup>Zophar the Naamathite, and said,
 
 ## CHAPTER XXI.
 
-The judgment of the wicked is in another world. <!-- uncertain: scan may read "anotner" -->
+The judgment of the wicked is in anotner world. <!-- uncertain: printed "anotner" for "another" (confirmed at zoom) -->
 
 BUT Job answered and said,
 
