@@ -31,7 +31,7 @@ curl -o /tmp/pg10.txt https://www.gutenberg.org/cache/epub/10/pg10.txt
 python3 tools/make_typo_catalog.py --kjv /tmp/pg10.txt   # printer-typos.md (uses tools/kjv_compare.py)
 ```
 
-Run on unchanged page files these reproduce the committed outputs byte for byte, so a clean `git diff` on the three combined files after a rebuild means nothing else moved. `tools/render_pages.py` (needs `pypdfium2`) renders scan pages into the crops used for transcription; `tools/transcription-spec.md` and `tools/audit-spec.md` are the instructions the transcribing and auditing agents followed. `transcription-notes.md` §7 describes what the generator strips and joins.
+Run on unchanged page files these reproduce the committed outputs byte for byte, so a clean `git diff` on the `.txt` files after a rebuild means nothing else moved. `phinney-bible.md` starts with a YAML frontmatter block (source, method, repository, and a `version` of release tag/build date/last page-file commit) written by `tools/compile_markdown.py`; its date and hash change on rebuild, and scripts that read the `.md` strip it with `tools/frontmatter.py`. `tools/render_pages.py` (needs `pypdfium2`) renders scan pages into the crops used for transcription; `tools/transcription-spec.md` and `tools/audit-spec.md` are the instructions the transcribing and auditing agents followed. `transcription-notes.md` §7 describes what the generator strips and joins.
 
 ## Page file format
 

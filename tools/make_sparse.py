@@ -15,6 +15,9 @@ import argparse
 import collections
 import re
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from frontmatter import strip_frontmatter  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -135,7 +138,7 @@ def main():
     ap.add_argument('--verbose', action='store_true', help='print what was dropped or kept unexpectedly')
     args = ap.parse_args()
 
-    items = annotate(Path(args.md).read_text(encoding='utf-8'))
+    items = annotate(strip_frontmatter(Path(args.md).read_text(encoding='utf-8')))
     out, dropped, diag = select(items)
     text = '\n\n'.join(plain(p) for pg, p in out if plain(p)) + '\n'
     text = re.sub(r'\n{3,}', '\n\n', text)
