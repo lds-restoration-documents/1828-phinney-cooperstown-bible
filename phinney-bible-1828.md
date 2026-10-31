@@ -7,7 +7,7 @@ publication_year: 1828
 source_scan: https://archive.org/details/holybiblecontain00cann (copy held by the Brigham Young University Library; PDF https://dn790002.ca.archive.org/0/items/holybiblecontain00cann/holybiblecontain00cann.pdf). The same edition Joseph Smith used for his Bible revision, but not his copy
 transcription_method: AI-assisted transcription from page images (Claude Opus 5.5 for PDF pages 1-329, audited against the scan; Claude Sonnet 5.5 for the rest, not audited); no full human proofread
 repository: https://github.com/lds-restoration-documents/1828-phinney-cooperstown-bible
-version: "v1.1.1 (2026-10-31, 6e0ecc3)"
+version: "v1.2.0 (2026-10-31, 6e0ecc3)"
 ---
 
 <!-- page 007 -->
