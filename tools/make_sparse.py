@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the sparse plain-text file (biblical text only) from phinney-bible.md.
+"""Build the sparse plain-text file (biblical text only) from phinney-bible-1828.md.
 
 Keeps book titles, chapter/Psalm headings, verses, Psalm titles and epistle
 subscriptions. Drops chapter summaries, the front matter, tables, indexes,
@@ -133,8 +133,8 @@ def plain(l):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('--md', default=str(ROOT / 'phinney-bible.md'))
-    ap.add_argument('--out', default=str(ROOT / 'phinney-bible-sparse.txt'))
+    ap.add_argument('--md', default=str(ROOT / 'phinney-bible-1828.md'))
+    ap.add_argument('--out', default=str(ROOT / 'phinney-bible-1828-sparse.txt'))
     ap.add_argument('--verbose', action='store_true', help='print what was dropped or kept unexpectedly')
     args = ap.parse_args()
 

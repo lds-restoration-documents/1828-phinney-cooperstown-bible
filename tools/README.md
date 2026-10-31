@@ -13,14 +13,14 @@ The scripts and instructions used to produce the files in this repository. The p
    [audit-spec.md](audit-spec.md). This step is done by agents, not by a script.
 3. **Rebuild the combined files** from the page files (Python 3, standard library only; run from anywhere):
    ```
-   python3 tools/compile_markdown.py     # -> phinney-bible.md
-   python3 tools/make_plaintext.py       # -> phinney-bible.txt        (from phinney-bible.md)
-   python3 tools/make_sparse.py          # -> phinney-bible-sparse.txt (from phinney-bible.md)
+   python3 tools/compile_markdown.py     # -> phinney-bible-1828.md
+   python3 tools/make_plaintext.py       # -> phinney-bible-1828.txt        (from phinney-bible-1828.md)
+   python3 tools/make_sparse.py          # -> phinney-bible-1828-sparse.txt (from phinney-bible-1828.md)
    ```
    Each script writes to the repo root by default; `--out` redirects the output. Run in that order.
 
-Run against the committed page files, the three scripts reproduce `phinney-bible.md`, `phinney-bible.txt` and
-`phinney-bible-sparse.txt` byte for byte. If you change a page file, re-run step 3 so the combined files stay in sync.
+Run against the committed page files, the three scripts reproduce `phinney-bible-1828.md`, `phinney-bible-1828.txt` and
+`phinney-bible-1828-sparse.txt` byte for byte. If you change a page file, re-run step 3 so the combined files stay in sync.
 
 4. **Rebuild the typo catalog** (needs the Project Gutenberg KJV, which is not in this repo):
    ```

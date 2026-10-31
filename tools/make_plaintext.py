@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Convert phinney-bible.md into plain text with no Markdown.
+"""Convert phinney-bible-1828.md into plain text with no Markdown.
 
 Headings become plain lines, * and ** emphasis markers, HTML comments (the page
 markers), horizontal rules and tags are removed, and tables become tab-separated
@@ -44,8 +44,8 @@ def to_plaintext(t):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('--md', default=str(ROOT / 'phinney-bible.md'))
-    ap.add_argument('--out', default=str(ROOT / 'phinney-bible.txt'))
+    ap.add_argument('--md', default=str(ROOT / 'phinney-bible-1828.md'))
+    ap.add_argument('--out', default=str(ROOT / 'phinney-bible-1828.txt'))
     args = ap.parse_args()
     s = to_plaintext(strip_frontmatter(Path(args.md).read_text(encoding='utf-8')))
     Path(args.out).write_text(s, encoding='utf-8')

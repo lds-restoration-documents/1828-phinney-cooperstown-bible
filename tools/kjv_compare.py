@@ -7,7 +7,7 @@ https://www.gutenberg.org/cache/epub/10/pg10.txt), which is NOT stored in this r
 It has no Apocrypha, so only the 66 canonical books are compared.
 
 What it does
-  1. Parses the reference into book / chapter / verse, and phinney-bible-sparse.txt
+  1. Parses the reference into book / chapter / verse, and phinney-bible-1828-sparse.txt
      into book / chapter / paragraph (the same 66 books, in order).
   2. Per chapter, aligns the two word streams (lower-cased, punctuation and hyphens
      removed) with difflib and collects every difference, with the KJV verse.
@@ -227,7 +227,7 @@ def classify(diffs):
 
 def load(kjv_path, root=ROOT):
     kjv = parse_kjv(kjv_path)
-    phin = parse_phinney(root / 'phinney-bible.md', root / 'phinney-bible-sparse.txt')
+    phin = parse_phinney(root / 'phinney-bible-1828.md', root / 'phinney-bible-1828-sparse.txt')
     finder = PageFinder(*page_stream(root / 'phinney-bible-pages'))
     diffs, anomalies = compare(kjv, phin, finder)
     return classify(diffs), anomalies

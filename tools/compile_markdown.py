@@ -173,7 +173,7 @@ def strip_parallel_marks(text):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--pages-dir', default=str(ROOT / 'phinney-bible-pages'))
-    ap.add_argument('--out', default=str(ROOT / 'phinney-bible.md'))
+    ap.add_argument('--out', default=str(ROOT / 'phinney-bible-1828.md'))
     args = ap.parse_args()
 
     files = sorted(glob.glob(str(Path(args.pages_dir) / 'page-*.md')))

@@ -7,9 +7,9 @@ In October 1829, Oliver Cowdery purchased a copy of the Phinney Cooperstown Bibl
 * BYU Studies: [Joseph Smith’s Cooperstown Bible: The Historical Context of the Bible Used in the Joseph Smith Translation](https://byustudies.byu.edu/article/joseph-smiths-cooperstown-bible-the-historical-context-of-the-bible-used-in-the-joseph-smith-translation)
 
 ## Files
-* [phinney-bible.md](phinney-bible.md): the whole text in a single [Markdown](#what-is-markdown) file, without the marginal notes.
-* [phinney-bible.txt](phinney-bible.txt): the same text as plain text, with no [Markdown](#what-is-markdown).
-* [phinney-bible-sparse.txt](phinney-bible-sparse.txt): plain text of the biblical text only (books, chapters and verses), without tables, introductory material, contents or chapter summaries.
+* [phinney-bible-1828.md](phinney-bible-1828.md): the whole text in a single [Markdown](#what-is-markdown) file, without the marginal notes.
+* [phinney-bible-1828.txt](phinney-bible-1828.txt): the same text as plain text, with no [Markdown](#what-is-markdown).
+* [phinney-bible-1828-sparse.txt](phinney-bible-1828-sparse.txt): plain text of the biblical text only (books, chapters and verses), without tables, introductory material, contents or chapter summaries.
 * [printer-typos.md](printer-typos.md): a catalog of the printer's typos in the text (about 30 occurrences, each with its page and context), the five verse numbers printed wrongly or left off, and a list of word differences from a reference King James text, most of which are differences between KJV editions rather than errors. It leaves out the marginal notes.
 * [phinney-bible-pages/](phinney-bible-pages/): one [Markdown](#what-is-markdown) file per page of the scan (`page-001.md` to `page-884.md`), with running heads, verses, marginal notes and footers. File numbers are PDF page numbers.
 

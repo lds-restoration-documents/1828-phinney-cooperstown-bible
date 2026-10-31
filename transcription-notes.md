@@ -5077,9 +5077,9 @@ barcode label: BRIGHAM YOUNG UNIVERSITY — 3 1197 22194 9792
 - **Thin spots:** pages 209–217 (read only from zoomed strips), 153–155 and 160, 261, 303, 305, 311, 317 had weaker checks than the rest. In many small margin notes digits 3/5/8/9 are indistinguishable even at 600 dpi; those keep their uncertain comments. Digit changes made in the zoomed-strip passes carry some risk of replacing one guess with another.
 - **Not audited:** pages 330–884 and the 20 Sonnet gap-fill pages (their authors were told to transcribe exactly what the scan shows).
 
-## 7. Compiled text (`phinney-bible.md`)
+## 7. Compiled text (`phinney-bible-1828.md`)
 
-`phinney-bible.md` (project root) is generated from the 884 page files by a script (`tools/compile_markdown.py`; see `tools/README.md`) and contains only the main text, in page order:
+`phinney-bible-1828.md` (project root) is generated from the 884 page files by a script (`tools/compile_markdown.py`; see `tools/README.md`) and contains only the main text, in page order:
 
 - **Removed:** the `### Marginal notes` sections, `Footer:` lines (signature marks and printed folios), the `**Header:**` running heads, all HTML comments (including the `uncertain` comments), the superscript reference marks (`a`, `b`, `†`, `‖`, `§` …, which only point to the margin notes), and the layout-only subheadings that named a column.
 - **Kept:** book titles, chapter headings and summaries, verses with their italics and ¶ marks, tables and indexes, and `[illegible]` marks (28 in the main text). A `<!-- page NNN -->` comment (invisible when rendered) marks the start of each page's text so any passage can be traced back to its page file.
@@ -5088,9 +5088,9 @@ barcode label: BRIGHAM YOUNG UNIVERSITY — 3 1197 22194 9792
 - **Kept as printed:** printer's errors survive in the compiled text, e.g. Ex. 30:8 is numbered "o" in print (p. 72), Gen. 4:2 has no verse number (p. 17), Num. 1:32 is numbered "23" (p. 103), and many final periods missing in print.
 - **Not in the compiled text:** the covers, blank pages and bookplate (comment-only pages), and every marginal cross-reference and date.
 
-`phinney-bible.txt` (project root) is the same text as `phinney-bible.md` with all markup removed: no `#` headings, no `*` italics or `**` bold, no page comments, no horizontal rules. Headings and chapter summaries are plain lines; tables are tab-separated rows (cells that held line breaks are joined with a space). Both files also had the inline printed parallel marks `||` (146 occurrences, mostly in the Apocrypha) removed, since like the superscript letters they only point to margin notes; the page files still contain them.
+`phinney-bible-1828.txt` (project root) is the same text as `phinney-bible-1828.md` with all markup removed: no `#` headings, no `*` italics or `**` bold, no page comments, no horizontal rules. Headings and chapter summaries are plain lines; tables are tab-separated rows (cells that held line breaks are joined with a space). Both files also had the inline printed parallel marks `||` (146 occurrences, mostly in the Apocrypha) removed, since like the superscript letters they only point to margin notes; the page files still contain them.
 
-`phinney-bible-sparse.txt` (project root) is the plain-text biblical text only, generated from `phinney-bible.md` (pages 15–580, 587–685 and 689–864):
+`phinney-bible-1828-sparse.txt` (project root) is the plain-text biblical text only, generated from `phinney-bible-1828.md` (pages 15–580, 587–685 and 689–864):
 
 - **Included:** book titles, chapter and Psalm headings, verses (with ¶ marks), Psalm titles ("To the chief Musician…") and the Psalm 119 letter headings, epistle subscriptions ("¶ Written from Rome…"), and the Apocrypha (as a separate block starting at "APOCRYPHA.", including the Additions to Esther, the Song of the Three Children, Susanna, Bel and the Dragon, and the Prayer of Manasses).
 - **Excluded:** the title page, tables of books and contents, preface, family-record pages, the Table of Passages and chronological/time/offices tables (pp. 581–582), the New Testament title page and dates table (687–688), the index, weights/measures tables, essays and name tables (865+), the chapter summaries ("1 The creation of heaven and earth….", 1,350 of them, including unnumbered ones and the Psalm 119 and Susanna argument notes), the translator's Prologue to Ecclesiasticus (p. 631), and the end markers ("END OF THE OLD TESTAMENT", "END OF THE APOCRYPHA", "FINIS").
