@@ -3,7 +3,8 @@
 
 Headings become plain lines, * and ** emphasis markers, HTML comments (the page
 markers), horizontal rules and tags are removed, and tables become tab-separated
-rows (a <br> inside a cell becomes a space).
+rows (a <br> inside a cell becomes a space). A one-line "#" header is
+added at the top.
 
 Usage:  python3 tools/make_plaintext.py [--md FILE] [--out FILE]
 """
@@ -15,6 +16,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from frontmatter import strip_frontmatter  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
+
+HEADER = '# The Holy Bible (Cooperstown, 1828, H. & E. Phinney; AI draft, no full human proofread) - https://github.com/lds-restoration-documents/1828-phinney-cooperstown-bible\n\n'
 
 
 def to_plaintext(t):
@@ -48,7 +51,7 @@ def main():
     ap.add_argument('--out', default=str(ROOT / 'phinney-bible-1828.txt'))
     args = ap.parse_args()
     s = to_plaintext(strip_frontmatter(Path(args.md).read_text(encoding='utf-8')))
-    Path(args.out).write_text(s, encoding='utf-8')
+    Path(args.out).write_text(HEADER + s, encoding='utf-8')
     print(f'{len(s.split())} words -> {args.out}')
 
 

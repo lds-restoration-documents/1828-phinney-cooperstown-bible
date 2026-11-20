@@ -21,6 +21,8 @@ from frontmatter import strip_frontmatter  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 
+HEADER = '# The Holy Bible (Cooperstown, 1828, H. & E. Phinney; sparse, AI draft, no full human proofread) - https://github.com/lds-restoration-documents/1828-phinney-cooperstown-bible\n\n'
+
 # PDF page ranges that hold Bible text: Old Testament, Apocrypha, New Testament.
 # Excluded between them: tables and family record (581-586), the New Testament
 # title page and dates table (687-688), and the index/tables/essays after 864.
@@ -142,7 +144,7 @@ def main():
     out, dropped, diag = select(items)
     text = '\n\n'.join(plain(p) for pg, p in out if plain(p)) + '\n'
     text = re.sub(r'\n{3,}', '\n\n', text)
-    Path(args.out).write_text(text, encoding='utf-8')
+    Path(args.out).write_text(HEADER + text, encoding='utf-8')
 
     print(f'kept {len(out)} paragraphs, dropped {len(dropped)}, {len(text.split())} words -> {args.out}')
     print(dict(collections.Counter(d[1].split()[0] for d in dropped)))

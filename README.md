@@ -8,8 +8,8 @@ In October 1829, Oliver Cowdery purchased a copy of the Phinney Cooperstown Bibl
 
 ## Files
 * [phinney-bible-1828.md](phinney-bible-1828.md): the whole text in a single [Markdown](#what-is-markdown) file, without the marginal notes.
-* [phinney-bible-1828.txt](phinney-bible-1828.txt): the same text as plain text, with no [Markdown](#what-is-markdown).
-* [phinney-bible-1828-sparse.txt](phinney-bible-1828-sparse.txt): plain text of the biblical text only (books, chapters and verses), without tables, introductory material, contents or chapter summaries.
+* [phinney-bible-1828.txt](phinney-bible-1828.txt): the same text as plain text, with no [Markdown](#what-is-markdown) apart from a one-line `#` header at the top.
+* [phinney-bible-1828-sparse.txt](phinney-bible-1828-sparse.txt): plain text of the biblical text only (books, chapters and verses), without tables, introductory material, contents or chapter summaries. It has the same one-line header.
 * [printer-typos.md](printer-typos.md): a catalog of the printer's typos in the text (about 30 occurrences, each with its page and context), the five verse numbers printed wrongly or left off, and a list of word differences from a reference King James text, most of which are differences between KJV editions rather than errors. It leaves out the marginal notes.
 * [phinney-bible-pages/](phinney-bible-pages/): one [Markdown](#what-is-markdown) file per page of the scan (`page-001.md` to `page-884.md`), with running heads, verses, marginal notes and footers. File numbers are PDF page numbers.
 
